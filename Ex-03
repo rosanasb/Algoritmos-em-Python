@@ -1,0 +1,7 @@
+'''Crie um programa que solicita o valor de um produto e o desconto aplicado. O programa deve
+calcular o valor final com o desconto e imprimir na tela.'''
+produto = float(input("Valor do produto:"))
+desconto = float(input("Colocar o percentual do desconto do produto :"))
+valor_do_desconto = produto * desconto / 100
+valor_final = produto - valor_do_desconto
+print("O valor do produto com desconto é:" , valor_final)
