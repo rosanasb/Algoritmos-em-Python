@@ -1,0 +1,6 @@
+'''Crie um programa que solicita a temperatura em graus Celsius e converte para Fahrenheit. A
+fórmula de conversão é: Fahrenheit = (Celsius * 9/5) + 32'''
+Celsius = float(input("Entre com a temperatura em graus celsius:"))
+Fahrenheit = (Celsius * 9/5) + 32
+print("A temperatura em Celsius e: ", Celsius)
+print("A temperatura em Fahrenheit é:" , Fahrenheit)
