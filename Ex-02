@@ -1,0 +1,4 @@
+'''Crie um programa que solicita ao usuário o seu ano de nascimento e calcula a sua idade.'''
+usuário = int(input("Seu ano de nascimento:"))
+idade = 2023 - usuário
+print("A idade do usuário é:" , idade)
