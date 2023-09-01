@@ -1,0 +1,13 @@
+'''Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a variável A
+passe a possuir o valor da variável B e que a variável B passe a possuir o valor da variável A.
+Apresentar os valores trocados.'''
+A = int(input("Digite um numero: "))
+B = int(input("Digite outro numero: "))
+print("O valor digitado de A e ", A, "e o valor de B: ", B)
+aux = A 
+A = B
+B = aux
+print("O valor de A:" , A)
+print("O valor de B:" , B)
+'''ou pode ser colocado
+A,B = B,A'''
