@@ -1,0 +1,8 @@
+'''Dado um número inteiro de 3 algarismos, inverter a ordem de seus algarismos. Os três algarismos
+do número dado são diferentes de zero. Utilize os operadores / e %.'''
+a = int(input("Digite um numero de 3 algarismos: "))
+print("Numero digitado: ", a)
+centenario = a//100
+decimal = (a % 100) // 10
+unidade = a % 10
+print(unidade * 100 + decimal * 10 + centenario)
