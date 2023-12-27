@@ -1,0 +1,5 @@
+'''Apresentar a soma de todos os números divisíveis por 4 entre 40 e 200.'''
+soma = 0
+for i in range(40, 201, 4):
+    soma += i
+print("Soma dos valores:", soma)
