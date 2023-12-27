@@ -1,0 +1,10 @@
+'''Ler dois valores inteiros (variáveis A e B) e apresentar a adição destes valores, quando a variável
+A for maior que B, caso contrário, efetuar a multiplicação das variáveis.'''
+a = int(input("Digite um numero: "))
+b = int(input("Digite outro numero: "))
+if a > b:
+    ad = a + b
+    print("A é maior que B, a soma dos valores é: ", ad)
+else:
+    mult = a * b
+    print("A é menor que B, a multiplicação dos valores é: ", mult)
