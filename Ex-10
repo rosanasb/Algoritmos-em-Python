@@ -1,0 +1,7 @@
+'''Ler dois valores numéricos e apresentar a diferença do maior pelo menor.'''
+a = int(input("Digite um numero: "))
+b = int(input("Digite outro numero: "))
+if a > b:
+    print("O valor de a ", a, "é maior que o valor de b ", b, "a diferenca é de: ", a-b)
+else:
+    print("O valor de b", b, "é maior que o valor de a", a, "a iferenca é de", b-a)
