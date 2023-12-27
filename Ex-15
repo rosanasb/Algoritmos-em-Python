@@ -1,0 +1,16 @@
+'''Efetuar a leitura de três números inteiros e apresentar o maior e o menor valor.'''
+a = int(input("Digite um numero: "))
+b = int(input("Digite um numero: "))
+c = int(input("Digite um numero: "))
+if a<b and b<c:
+    print(c, a)
+elif a<c and c<b:
+    print(b, a)
+elif b<a and a<c:
+    print(c, b)
+elif c<a and a<b:
+    print(b, c)
+elif b<c and  c<a:
+    print(a, b)
+else:
+    print(a, c)
