@@ -1,0 +1,12 @@
+'''Ler um valor inteiro que representa o mês de uma data e apresentar o trimestre correspondente.'''
+mes = int(input("Digite um mes: "))
+if mes >= 1 and mes <= 3:
+    print("Primeiro trimeestre", mes)
+elif mes >3 and mes <= 6:
+    print("Segundo trimestre", mes)
+elif mes > 6 and mes <= 9:
+    print("Terceiro trimestre", mes)
+elif mes > 9 and mes <= 12:
+    print("Quarto trimestre", mes)
+else:
+    print("Numero incorreto, tente de novo")
