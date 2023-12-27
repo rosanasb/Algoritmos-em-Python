@@ -1,0 +1,7 @@
+'''Crie um programa que solicita a idade do usuário e verifica se ele é maior ou igual a 18 anos. Em
+seguida, imprima a mensagem correspondente. Ex.: Você tem 20 anos e é maior de idade.'''
+idade = int(input("Digite a sua idade: "))
+if idade >= 18:
+    print("Você tem ", idade, "anos e é maior de idade")
+else:
+    print("Você tem", idade, "anos e é menor de idade")
