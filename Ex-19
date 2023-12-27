@@ -1,0 +1,4 @@
+'''Apresentar os quadrados dos números inteiros de 15 a 35.'''
+for x in range(15,36):
+    quadrado = x ** 2
+    print("O quadrado de ", x, "é", quadrado)
