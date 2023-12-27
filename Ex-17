@@ -1,0 +1,18 @@
+'''Elabore um programa que, dada a idade de um nadador, classifique-o em uma das seguintes
+categorias:
+infantil A = 5 - 7 anos
+infantil B = 8 - 10 anos
+juvenil A = 11 - 13 anos
+juvenil B = 14 - 17 anos
+sênior = maiores de 17 anos'''
+idade = int(input("Digite a sua idade: "))
+if idade >= 5 and idade <= 7:
+    print('Ctegoria infantil A')
+elif idade >7 and idade <= 10:
+    print('categoria infantil B')
+elif idade > 10 and idade <= 13:
+    print('categoria juvenil A')
+elif idade > 13 and idade <= 17:
+    print('categoria juvenil B')
+else:
+    print('categoria sênior')
